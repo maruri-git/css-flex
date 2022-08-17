@@ -1,0 +1,25 @@
+main {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid green;
+    height: 500px;
+}
+
+.flex-container {
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 500px;
+    border: 1px dashed purple;
+}
+
+.flex-container>div {
+    font-size: 30px;
+    color: blue;
+    background-color: pink;
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid red;
+}
